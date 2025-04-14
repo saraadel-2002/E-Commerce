@@ -94,9 +94,5 @@ Note: Angular CLI doesn't include an e2e framework by default. You can integrate
 
 
 
-نسخ
-ت
-نسخ
-تحرير
 
 
