@@ -17,14 +17,6 @@ The app features smooth animations, reusable components, and a clean modern UI e
 
 ---
 
-## 📸 Screenshots
-
-> Replace these with your actual screenshots (e.g. in `./images/` folder)
-
-![Home Page](./images/screenshot-home.png)
-![Product Details](./images/screenshot-product.png)
-
----
 
 ## 🛠️ Built With
 
