@@ -1,4 +1,21 @@
 <section>
+    <p class="text-2xl text-green-500">Popular categories</p>
+    <owl-carousel-o [options]="customOptions">
+        @for (cat of categories; track cat._id) {
+            <ng-template carouselSlide>
+                <!-- content -->
+                <div>
+                    <img [src]="cat.image" class="w-full h-[250px]" alt="">
+                    <h3 class="text-green-600">{{cat.name}}</h3>
+                </div>
+            </ng-template>
+        }    
+      </owl-carousel-o>
+</section>
+
+
+
+<section>
     <p class="text-4xl text-green-500">Popular Products</p>
     <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-5">
         @for (prod of products.slice(1,12); track prod.id) {
@@ -17,7 +34,6 @@
                         </div>
                     </div>
                 </div>
-
                 <button class="bg-green-600 text-white py-2 px-10 border rounded w-[90%] mx-auto block">Add To Card</button>
             </div>
         }
