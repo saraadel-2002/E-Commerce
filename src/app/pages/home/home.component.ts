@@ -17,6 +17,19 @@ export class HomeComponent implements OnInit{
   private readonly productsService = inject(ProductsService);
   private readonly categoriesService = inject(CategoriesService);
 
+  customMainSlider: OwlOptions = {
+    loop: true,
+    mouseDrag: true,
+    touchDrag: false,
+    pullDrag: false,
+    autoplay:true,
+    dots: false,
+    navSpeed: 700,
+    navText: ['', ''],
+    items:1,
+    nav: true
+  }
+
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
